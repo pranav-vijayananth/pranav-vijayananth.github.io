@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Quantifying Nondeterminism in SOM models
 description: SOM (self-organizing maps) project in collaboration with Professor Iulian Neamtiu.
 img: assets/img/som_cover.png 
 importance: 1
@@ -10,17 +10,14 @@ related_publications: true
 
 I researched the dilemma of consistency and determinism in AI by studying Self-Organizing Map (SOM) models, contributing to a project that secured a $400,000 NSF grant over three years.
 I developed sophisticated SOM systems using TensorFlow and Keras, optimizing their performance with Nvidia’s cuDNN to achieve a clustering accuracy standard deviation of 0.08. 
-\Additionally, I utilized Matplotlib and Scikit-learn to visualize U-matrices, effectively mapping neighborhood distances and BMU locations, which revealed distortions quantified at 4.36.
+Additionally, I utilized Matplotlib and Scikit-learn to visualize U-matrices, effectively mapping neighborhood distances and BMU locations, which revealed distortions quantified at 4.36.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/som_pic.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/som_pic2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
