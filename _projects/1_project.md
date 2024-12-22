@@ -8,9 +8,26 @@ category: work
 related_publications: true
 ---
 
-I researched the dilemma of consistency and determinism in AI by studying Self-Organizing Map (SOM) models, contributing to a project that secured a $400,000 NSF grant over three years.
-I developed sophisticated SOM systems using TensorFlow and Keras, optimizing their performance with Nvidia’s cuDNN to achieve a clustering accuracy standard deviation of 0.08. 
-Additionally, I utilized Matplotlib and Scikit-learn to visualize U-matrices, effectively mapping neighborhood distances and BMU locations, which revealed distortions quantified at 4.36.
+### Research Contributions
+
+**Title:** Quantifying Nondeterminism and Inconsistency in Self-organizing Map Implementations  
+**Published In:** AITEST Conference 2021  
+**Collaborators:** Sydur Rahaman, Raina Samuel, Iulian Neamtiu  
+
+#### Overview  
+I contributed to groundbreaking research analyzing the reliability of Self-Organizing Maps (SOMs), a neural network-based technique for clustering and dimensionality reduction. Our work addressed critical gaps in understanding nondeterminism (variability in outcomes across repeated runs) and inconsistency (differences in results across implementations), particularly when applied to medical and other critical datasets.
+
+#### Key Contributions  
+- **Toolkit Analysis:** Assisted in benchmarking SOM implementations across four popular toolkits (MiniSom, RKoh, MATLAB, and TensorFlow SOM) using 381 datasets, including health and bioinformatics data.  
+- **Statistical Validation:** Helped design statistical tests to identify and quantify nondeterminism and inconsistency using internal and external metrics such as clustering accuracy, trustworthiness, and distortion.  
+- **Critical Insights:** Found significant variability in SOM reliability, highlighting the importance of multiple toolkit evaluations for high-stakes applications.  
+- **Technical Support:** Supported the development and debugging of TensorFlow SOM implementations to ensure robust comparisons.  
+
+#### Impact  
+This research exposed reliability challenges in SOM usage, prompting the need for rigorous testing and validation. It provides actionable insights for practitioners in fields like healthcare, where consistent and reliable machine learning outcomes are essential.  
+
+#### Acknowledgments  
+The project was supported by the National Science Foundation under Grant No. CCF-2007730.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,49 +38,5 @@ Additionally, I utilized Matplotlib and Scikit-learn to visualize U-matrices, ef
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    These figures highlight key challenges in Self-Organizing Map (SOM) reliability, focusing on nondeterminism in quantization error (Figure 4) and topographic product (Figure 5). Figure 4 demonstrates variability in quantization error across runs of the ecoli3 dataset using the RKoh toolkit, where error levels range from low (dark blue) to high (red), underscoring the inconsistency in clustering quality. Figure 5 showcases topographic product nondeterminism in the colic dataset, with the left map displaying a more uniform neuron distribution and better fit, while the right map reveals empty nodes and higher errors, emphasizing the sensitivity of SOM outcomes to repeated executions.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
