@@ -2,7 +2,7 @@
 layout: page
 title: Brightspace MCP Server
 description: A Model Context Protocol server enabling Claude Desktop to interact with Purdue Brightspace
-img:
+img: assets/img/brightspace_mcp.svg
 importance: 2
 category: work
 github: https://github.com/pranav-vijayananth/brightspace-mcp-server
