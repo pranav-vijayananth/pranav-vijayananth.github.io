@@ -5,6 +5,7 @@ description: SOM (self-organizing maps) project in collaboration with Professor 
 img: assets/img/som_cover.png 
 importance: 1
 category: work
+github: https://github.com/pranav-vijayananth/SOMResearch
 related_publications: false
 ---
 
